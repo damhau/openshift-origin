@@ -6,13 +6,13 @@
 			"value": "https://raw.githubusercontent.com/damhau/openshift-origin/release-3.9"
 		},
 		"masterVmSize": {
-			"value": "Standard_D2_v3"
+			"value": "Standard_D2s_v3"
 		},
 		"infraVmSize": {
-			"value": "Standard_D2_v3"
+			"value": "Standard_D4s_v3"
 		},
 		"nodeVmSize": {
-			"value": "Standard_D2_v3"
+			"value": "Standard_D4s_v3"
 		},
 		"storageKind": {
 			"value": "managed"
@@ -21,13 +21,13 @@
 			"value": "icrc"
 		},
 		"masterInstanceCount": {
-			"value": 1
+			"value": 3
 		},
 		"infraInstanceCount": {
-			"value": 1
+			"value": 2
 		},
 		"nodeInstanceCount": {
-			"value": 1
+			"value": 3
 		},
 		"dataDiskSize": {
 			"value": 256
@@ -36,13 +36,13 @@
 			"value": "icrcadmin"
 		},
 		"openshiftPassword": {
-			"value": "OEnQvecQqBB0lBdoYtPa"
+			"value": "P11-wrt01"
 		},
 		"enableMetrics": {
-			"value": "false"
+			"value": "true"
 		},
 		"enableLogging": {
-			"value": "false"
+			"value": "true"
 		},
 		"sshPublicKey": {
 			"value": "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEA3yNCj04NqK4dC4GNWL5zqPdjbK5u9pxdZ/EuRqgGsNiCA1iij0Q1oqnpxdQHvYfHnRN4nVmyTNY3PpPjOHMdEOCvxx9JafFbZBGjx3W345lBEcFlCH4tPxT+WNMAy0rl+MLSEQhTrNAOfzdPrxwpJAwLgfdu8hM81zwosPO2/8Qgzak+EVn5oHu48htZ1EluF56r0qhhCK6LzDqenYCEOGT80nq7CS7yCEUtE7kMNryms5aMSUBOHLWOePxdmsFibcLf4472x71KsRdarrMKVl3o5gTXSuLczZjXdowXiLB6V1aQWqEjrpnhmrwAAd5mCbHsEy6tfK+fB4USWyjyxQ== rsa-key-20180516"
