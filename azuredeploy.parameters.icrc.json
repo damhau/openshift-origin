@@ -1,0 +1,75 @@
+{
+	"$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"_artifactsLocation": {
+			"value": "https://raw.githubusercontent.com/damhau/openshift-origin/release-3.9"
+		},
+		"masterVmSize": {
+			"value": "Standard_D2_v3"
+		},
+		"infraVmSize": {
+			"value": "Standard_D2_v3"
+		},
+		"nodeVmSize": {
+			"value": "Standard_D2_v3"
+		},
+		"storageKind": {
+			"value": "managed"
+		},
+		"openshiftClusterPrefix": {
+			"value": "icrc"
+		},
+		"masterInstanceCount": {
+			"value": 1
+		},
+		"infraInstanceCount": {
+			"value": 1
+		},
+		"nodeInstanceCount": {
+			"value": 1
+		},
+		"dataDiskSize": {
+			"value": 256
+		},
+		"adminUsername": {
+			"value": "icrcadmin"
+		},
+		"openshiftPassword": {
+			"value": "OEnQvecQqBB0lBdoYtPa"
+		},
+		"enableMetrics": {
+			"value": "false"
+		},
+		"enableLogging": {
+			"value": "false"
+		},
+		"sshPublicKey": {
+			"value": "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEA3yNCj04NqK4dC4GNWL5zqPdjbK5u9pxdZ/EuRqgGsNiCA1iij0Q1oqnpxdQHvYfHnRN4nVmyTNY3PpPjOHMdEOCvxx9JafFbZBGjx3W345lBEcFlCH4tPxT+WNMAy0rl+MLSEQhTrNAOfzdPrxwpJAwLgfdu8hM81zwosPO2/8Qgzak+EVn5oHu48htZ1EluF56r0qhhCK6LzDqenYCEOGT80nq7CS7yCEUtE7kMNryms5aMSUBOHLWOePxdmsFibcLf4472x71KsRdarrMKVl3o5gTXSuLczZjXdowXiLB6V1aQWqEjrpnhmrwAAd5mCbHsEy6tfK+fB4USWyjyxQ== rsa-key-20180516"
+		},
+		"keyVaultResourceGroup": {
+			"value": "ICRC-RG-01"
+		},
+		"keyVaultName": {
+			"value": "ICRC-KeyVault-01"
+		},
+		"keyVaultSecret": {
+			"value": "openshiftkey1"
+		},
+		"enableAzure": {
+			"value": "true"
+		},
+		"aadClientId": {
+			"value": "bdb954b3-623e-47e7-ab80-00d2c8b6b6ec"
+		},
+		"aadClientSecret": {
+			"value": "Pass@word1"
+		},
+		"defaultSubDomainType": {
+			"value": "nipio"
+		},
+		"defaultSubDomain": {
+			"value": "domain-name-all-lowercase-if-custom-used.com"
+		}
+	}
+}
