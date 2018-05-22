@@ -168,7 +168,7 @@ If you encounter an error during deployment of the cluster, please view the depl
 For further troubleshooting, please SSH into your master0 node on port 2200. You will need to be root **(sudo su -)** and then navigate to the following directory: **/var/lib/waagent/custom-script/download**<br/><br/>
 You should see a folder named '0' and '1'. In each of these folders, you will see two files, stderr and stdout. You can look through these files to determine where the failure occurred.
 
-## Post-Deployment Operations
+## Post-Deployment Operation
 
 ### Additional OpenShift Configuration Options
 
