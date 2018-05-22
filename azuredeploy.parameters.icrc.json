@@ -18,7 +18,7 @@
 			"value": "managed"
 		},
 		"openshiftClusterPrefix": {
-			"value": "icrc"
+			"value": "openshift"
 		},
 		"masterInstanceCount": {
 			"value": 3
